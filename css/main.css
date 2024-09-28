@@ -1,3 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e9;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+.header {
+    background-color: #d1fffc;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: blue;
+    font-size: 24px;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #c7dde2;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content {
+    background-color: #f0fff4;
+    padding: 20px;
+    text-align: center;
+}
+
+.right-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-item {
+    background-color: #d1fffc;
+    height: 80px;
+}
 .more-pens {
   position: fixed;
   left: 20px;
